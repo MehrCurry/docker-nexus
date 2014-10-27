@@ -1,3 +1,3 @@
 #/bin/sh
 
-docker build -t gzockoll/nexus --rm .
+docker build $1 -t gzockoll/nexus --rm .
