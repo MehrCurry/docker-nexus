@@ -1,4 +1,4 @@
-FROM dockerfile/java
+FROM payone/java:java8
 MAINTAINER Guido Zockoll "gzockoll@gmail.com"
 
 RUN mkdir -p /opt/sonatype-nexus /opt/sonatype-work-template /opt/sonatype-work
