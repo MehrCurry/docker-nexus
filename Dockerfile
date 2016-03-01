@@ -1,4 +1,4 @@
-FROM payone/java:java8
+FROM java:8
 MAINTAINER Guido Zockoll "gzockoll@gmail.com"
 
 RUN mkdir -p /opt/sonatype-nexus /opt/sonatype-work-template /opt/sonatype-work
