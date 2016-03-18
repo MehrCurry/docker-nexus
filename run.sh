@@ -5,4 +5,4 @@ if [ "$DATA_CONTAINER" -ne "1" ]; then
   docker run -v /opt/sonatype-work --name nexus_data busybox true
 fi
 
-docker run -d -p 8081:8081 --volumes-from nexus_data --name nexus gzockoll/nexus
+docker run -d -p 8081:8081 --volumes-from nexus_data --restart=always --name nexus gzockoll/nexus
